@@ -1,0 +1,109 @@
+body{
+background-color: white;
+text-align: center;
+font-family: helvetica;
+
+}
+.maincont{
+  display: inline-flex;
+  align-items: flex-start;
+  width: 80%;
+  background-image: url(backp.jpg);
+  background-size: cover;
+}
+.rightside{
+display:block;
+width: 70%;
+height: auto;
+background-color: rgba(255, 255, 255, 0.85);
+}
+.leftside{
+display: block;
+width: 30%;
+height: auto;
+background-color: rgba(0, 40, 86, 0.85);
+color: white;
+}
+.leftside h1{
+  margin-top:10px;
+  margin-bottom: 0;
+  font-size: 48px;
+}
+.leftside h3{
+  margin-top: 50px;
+  margin-bottom: 0;
+  font-size: 32px;
+}
+.leftside h4 {
+  margin-top: 10px;
+  font-stretch: condensed;
+  font-weight: lighter;
+
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#name{
+  font-weight:lighter;
+  margin-top: 50px;
+}
+
+#pp {
+  display: inline-block;
+  width:70%;
+  height: auto;
+  border: 1.5px solid #8d7249;
+  border-radius: 70%;
+  margin-top: 30px;
+}
+#linkedin{
+  width: 35%;
+  height: auto;
+  margin-top: 50%;
+  margin-bottom: 10%;
+}
+.aboutme {
+display: inline-block;
+
+}
+.container{
+  margin-top: 15px;
+}
+.container h1{
+  background-image:linear-gradient(to right, rgba(0,40,86,1)-25%, rgba(255,255,255,0));
+  color: white;
+  text-align: left;
+  padding-left: 30px;
+  height: 45px;
+  font-size: 30px;
+  line-height: 45px;
+  margin-bottom: 10px;
+  border-top: 1.5px solid;
+  border-bottom:1.5px solid;
+  border-image-source: linear-gradient(to right, rgba(141, 115, 74,1)-25%,rgba(255, 255, 255, 0));
+  border-image-slice:1;
+}
+.container h2{
+  color: #002855;
+  font-size: 1.25rem;
+  padding-left: 50px;
+  margin: 0;
+  text-align: left;
+}
+.container h3{
+  color: #002855;
+  font size:0.75rem;
+  padding-left: 70px;
+  margin:0;
+  text-align: left;
+  font-weight: lighter;
+  font-stretch: condensed;
+}
+
+.dates{
+  float:right;
+}
+.perinf{
+  float:right;
+  font-weight: normal;
+  width: 500px;
+}
