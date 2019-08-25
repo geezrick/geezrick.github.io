@@ -1,15 +1,27 @@
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+    }
+
 body{
 background-color: white;
 text-align: center;
 font-family: helvetica;
 
 }
+
 .maincont{
   display: inline-flex;
   align-items: flex-start;
   width: 80%;
   background-image: url(backp.jpg);
   background-size: cover;
+
 }
 .rightside{
 display:block;
@@ -72,21 +84,23 @@ display: inline-block;
   background-image:linear-gradient(to right, rgba(0,40,86,1)-25%, rgba(255,255,255,0));
   color: white;
   text-align: left;
-  padding-left: 30px;
+  padding-left: 40px;
   height: 45px;
   font-size: 30px;
   line-height: 45px;
-  margin-bottom: 10px;
+  margin-bottom: -40px;
   border-top: 1.5px solid;
   border-bottom:1.5px solid;
   border-image-source: linear-gradient(to right, rgba(141, 115, 74,1)-25%,rgba(255, 255, 255, 0));
   border-image-slice:1;
+  cursor: pointer;
 }
 .container h2{
   color: #002855;
   font-size: 1.25rem;
   padding-left: 50px;
-  margin: 0;
+  padding-right: 15px;
+  margin:0;
   text-align: left;
 }
 .container h3{
@@ -105,5 +119,25 @@ display: inline-block;
 .perinf{
   float:right;
   font-weight: normal;
-  width: 500px;
+}
+
+.laninf{
+  float: right;
+  font-weight: normal;
+}
+
+.softsec{
+  display: table-cell;
+}
+
+.second{
+  display: table-cell;
+  padding-right: 50px;
+}
+
+#arroba{
+  width: 58px;
+  position: relative;
+  right:49.5%;
+  bottom: 9px;
 }
