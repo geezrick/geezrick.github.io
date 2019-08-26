@@ -201,9 +201,10 @@ float: left;
   display: block;
   color: white;
   text-align: center;
-  padding-right: 10px;
+  padding-right: 4px;
   text-decoration: none;
-  padding-left: 15px;
+  padding-left: 3px;
+  font-size: 0.95em;
 }
 
 .menu li a:hover{
