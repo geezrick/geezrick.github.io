@@ -175,7 +175,7 @@ footer{
 display: none;
   }
 
-@media only screen and (max-width:720px) {
+@media only screen and (max-width:480px) {
 
 #spotify{
   display:inline-block;
@@ -201,9 +201,9 @@ float: left;
   display: block;
   color: white;
   text-align: center;
-  padding-right: 10px;
+  padding-right: 5px;
   text-decoration: none;
-  padding-left: 15px;
+  padding-left: 5px;
 }
 
 .menu li a:hover{
