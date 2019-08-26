@@ -12,13 +12,14 @@ body{
 background-color: white;
 text-align: center;
 font-family: helvetica;
-
+font-size: 24px;
 }
 
 .maincont{
   display: inline-flex;
   align-items: flex-start;
   width: 80%;
+  min-width: 900px;
   background-image: url(backp.jpg);
   background-size: cover;
 
@@ -39,18 +40,18 @@ color: white;
 .leftside h1{
   margin-top:10px;
   margin-bottom: 0;
-  font-size: 48px;
+  font-size: 2em;
 }
 .leftside h3{
   margin-top: 50px;
   margin-bottom: 0;
-  font-size: 32px;
+  font-size: 1.5em;
 }
 .leftside h4 {
   margin-top: 10px;
   font-stretch: condensed;
   font-weight: lighter;
-
+  font-size: 0.75em;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -60,7 +61,7 @@ color: white;
 }
 #ppcont{
   width: 75%;
-  margin-top: 55px;
+  margin-top: 56px;
 }
 
 #linkedin{
@@ -71,7 +72,6 @@ color: white;
 }
 .aboutme {
 display: inline-block;
-
 }
 .container{
   margin-top: 15px;
@@ -82,7 +82,7 @@ display: inline-block;
   text-align: left;
   padding-left: 40px;
   height: 45px;
-  font-size: 30px;
+  font-size: 1.25em;
   line-height: 45px;
   margin-bottom: -40px;
   border-top: 2.2px solid;
@@ -94,16 +94,17 @@ display: inline-block;
 .container h2{
   color: #002855;
   font-size: 1.25rem;
-  padding-left: 50px;
-  padding-right: 15px;
+  padding-left: 7%;
+  padding-right: 3%;
   margin:0;
   text-align: left;
 }
 .container h3{
   color: #002855;
-  font size:0.75rem;
-  padding-left: 70px;
+  padding-left: 10%;
+  padding-right: 3%;
   margin:0;
+  font-size: 0.75em;
   text-align: left;
   font-weight: lighter;
   font-stretch: condensed;
@@ -124,6 +125,7 @@ display: inline-block;
 
 .softsec{
   display:table-cell;
+
 }
 
 .second{
@@ -140,6 +142,17 @@ display: inline-block;
   z-index: 1;
 }
 
+.schoologo{
+  width: 25px;
+  position: relative;
+  bottom: 8px;
+  right: -25px;
+  margin-left: -12.5px;
+  margin-right: -12.5px;
+  margin-top: -20px;
+  margin-bottom: -20px;
+}
+
 .arroba{
   width: 58px;
   position: relative;
@@ -148,7 +161,19 @@ display: inline-block;
   z-index: 0;
 }
 
+footer{
+  background-color: #002855;
+  opacity: 0.5;
+  width: 100%;
+  height: 70px;
+  line-height: 70px;
+  color: white;
+}
 
+  .menu,
+  #spotify{
+display: none;
+  }
 
 @media screen and (max-width:500px) {
 
