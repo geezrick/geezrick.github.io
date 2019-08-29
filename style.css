@@ -62,7 +62,10 @@ color: white;
   width: 75%;
   margin-top: 56px;
 }
-
+#mail{
+  text-decoration: none;
+  color: inherit;
+}
 #linkedin{
   width: 35%;
   height: auto;
@@ -190,7 +193,6 @@ display: none;
     line-height: 50px;
     list-style-type: none;
     z-index: 1;
-
   }
 .menu li{
 float: left;
