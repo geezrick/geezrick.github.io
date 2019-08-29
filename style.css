@@ -189,6 +189,8 @@ display: none;
     background-color: #8d7249;
     line-height: 50px;
     list-style-type: none;
+    z-index: 1;
+
   }
 .menu li{
 float: left;
